@@ -1,0 +1,493 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+nav {
+  display: flex;
+  gap: 25px;
+}
+.menuicon {
+  display: block;
+  font-size: 20px;
+  width: 3vw;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.herosection {
+  height: 5vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("/myapp/image/hero.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  padding: 70px 0px;
+  flex-direction: column;
+  font-family: monospace;
+  color: white;
+  gap: 10px;
+}
+.herosection h1 {
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 5vw;
+}
+.herosection p {
+  text-align: center;
+  color: white;
+  font-size: 3vw;
+}
+.herosection button {
+  border: none;
+  background-color: green;
+  padding: 20px 40px;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.mainsection {
+  padding: 70px;
+}
+/* .mainsection h3 {
+  text-align: center;
+  font-size: 30px;
+} */
+.learn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  margin-top: 50px;
+}
+.learn img {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+}
+
+/* ..................who we are............. */
+.services {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.services h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: serif;
+}
+.services section {
+  height: 50vh;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+figure {
+  border: 1px solid black;
+}
+
+section figure img {
+  height: 15vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+figure figcaption {
+  font-weight: 600;
+  font-size: 40px;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+.testimony {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.testimony figure {
+  height: 100%;
+  width: 23%;
+  display: flex;
+  padding: 10px 0px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.testimony img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.testimony figcaption {
+  padding: 10px;
+  text-align: center;
+}
+.testifier {
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+}
+.testimony figcaption b {
+  margin: 10px 0px;
+  font-size: 18px;
+}
+.testimony figcaption p {
+  text-align: start;
+}
+figcaption b {
+  margin: 10px 0px;
+  font-size: 10px;
+}
+.about,
+.contact {
+  padding: 70px;
+}
+.about h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.about section {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;
+    flex-direction: row; */
+  height: 70vh;
+  margin-top: 50px;
+}
+.about section img {
+  height: 100%;
+  width: 45%;
+}
+
+.fig figure {
+  border: 1px solid black;
+  height: 50vh;
+  width: 40vw;
+  margin-top: 30px;
+}
+
+.aboutus article button {
+  border: none;
+  padding: 10px 0px;
+  width: 120px;
+  color: white;
+  background: blue;
+  font-weight: bold;
+}
+.aboutus article {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aboutus article small {
+  font-size: 20px;
+}
+.contactA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin-top: 50px;
+  gap: 10vh;
+}
+.contact h1,
+.services h1,
+.testimonials h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.address a {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.address {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.3);
+}
+.address a i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.mainform {
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.3);
+}
+.form {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 2vh;
+  flex-direction: column;
+}
+button {
+  width: 9vw;
+  height: 5vh;
+  color: blue;
+  font-weight: 600;
+  font-size: 2vh;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  padding: 15px;
+}
+.partners-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #8c8d8c;
+  background-size: cover;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.partners h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(16, 15, 15);
+}
+.partners img {
+  height: 150px;
+  width: 250px;
+  border-radius: 15%;
+  padding: 10px;
+}
+/* .images img {
+  height: 30%;
+  width: 10%;
+} */
+/* .sponsors{
+    width: 20%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+} */
+/* .image-one{
+    height: 50%;
+    width:50%;
+    
+    
+}
+.image-two{
+    height:10%;
+    width: 10%;
+}
+.image-three{
+    height: 10%;
+    width: 10%;
+}
+.image-four{
+    height: 10%;
+    width: 10%;
+} */
+footer {
+  height: 35vh;
+  background-color: rgba(51, 128, 0, 0.808);
+  padding: 0px 10px;
+  color: #fff;
+}
+
+.icons a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-shrink: 3px;
+}
+.social h1 {
+  margin: 10px 0px;
+  font-size: 20px;
+  color: white;
+}
+.social {
+  padding: 20px 0px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.fig {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fig figure img {
+  width: 100%;
+}
+/* .fig {
+  flex-wrap: wrap;
+  height: fit-content;
+  gap: 10px;
+} */
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 20vh;
+  width: 40vw;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+}
+/* .icons a{
+    background-color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    color: blue;
+    
+    
+ } */
+footer p {
+  font-size: 20px;
+  text-align: center;
+}
+@media only screen and(max-width:1000px) {
+  .about,
+  .services,
+  .contact,
+  .testimonials {
+    padding: 70px 20px;
+  }
+  .about section {
+    height: 70vh;
+  }
+  .fig figure {
+    height: 80vh;
+    width: 45%;
+    font-size: 15px;
+  }
+  .contactadd .testimony figure {
+    width: 45%;
+  }
+  .fig {
+    flex-wrap: wrap;
+    height: fit-content;
+    gap: 10px;
+  }
+  .about article {
+    width: 50%;
+    font: 15px;
+  }
+  .second_para {
+    display: none;
+  }
+  .address a {
+    font-size: 15px;
+  }
+  .testimony figure {
+    width: 45%;
+    height: 90vh;
+  }
+  .testimony {
+    height: fit-content;
+    gap: 10px;
+  }
+  .testifier {
+    width: 100px;
+    height: 100px;
+  }
+  .icons {
+    width: 100%;
+    justify-content: start;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .about section {
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+  }
+  .about section img {
+    width: 100%;
+  }
+  .about article {
+    width: 100%;
+    gap: 10px;
+  }
+  nav {
+    display: none;
+  }
+  .menuicon {
+    display: block;
+    font-size: 20px;
+  }
+  .fig figure {
+    width: 100%;
+  }
+  .contact {
+    flex-direction: column;
+    gap: 10px;
+    height: fit-content;
+  }
+  .address {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .partners section {
+    height: fit-content;
+  }
+}
